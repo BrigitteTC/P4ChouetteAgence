@@ -887,7 +887,8 @@ h4 {
   .bloc {
     /*padding-left: constant(safe-area-inset-left);
     padding-right: constant(safe-area-inset-right);*/
-    padding: env(safe-area-inset-left, 0) env(safe-area-inset-right, 0);
+    /*padding: env(safe-area-inset-left, 20px) env(safe-area-inset-right, 20px);*/
+    padding: 0;
   }
   .bloc-group,
   .bloc-group .bloc {
@@ -897,9 +898,11 @@ h4 {
   .bloc-fill-screen .fill-bloc-top-edge,
   .bloc-fill-screen .fill-bloc-bottom-edge {
     padding: 0 20px;
-    padding: env(safe-area-inset-left, 0) env(safe-area-inset-right, 0);
+    /*padding: env(safe-area-inset-left, 20px) env(safe-area-inset-right, 20px);*/
     /*padding-left: constant(safe-area-inset-left);
     padding-right: constant(safe-area-inset-right);*/
+    /*padding-left: safe-area-inset-left;
+    padding-right: safe-area-inset-right;*/
   }
 }
 
